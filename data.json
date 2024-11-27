@@ -1,0 +1,38 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "email": "juan.perez@example.com",
+      "clave": "123456"
+    },
+    {
+      "id": 2,
+      "nombre": "María",
+      "apellido": "Gómez",
+      "email": "maria.gomez@example.com",
+      "clave": "123456"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Cuenta corriente",
+      "descripcion": "Cuenta corriente con mantenimiento mensual",
+      "precio": 100
+    },
+    {
+      "id": 2,
+      "nombre": "Cuenta de ahorro",
+      "descripcion": "Cuenta de ahorro con interés mensual",
+      "precio": 50
+    },
+    {
+      "id": 3,
+      "nombre": "Tarjeta de crédito",
+      "descripcion": "Tarjeta de crédito con límite de crédito",
+      "precio": 200
+    }
+  ]
+}

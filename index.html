@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Homebanking</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#login">Iniciar sesión</a></li>
+        <li><a href="#registro">Registro</a></li>
+        <li><a href="#carrito">Carrito</a></li> <!-- Enlace al carrito -->
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Sección de login -->
+    <section id="login">
+      <h2>Iniciar sesión</h2>
+      <form id="login-form">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+        <label for="clave">Clave:</label>
+        <input type="password" id="clave" required>
+        <button type="submit">Iniciar sesión</button>
+      </form>
+    </section>
+
+    <!-- Sección de registro -->
+    <section id="registro">
+      <h2>Registro</h2>
+      <form id="registro-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+        <label for="clave">Clave:</label>
+        <input type="password" id="clave" required>
+        <button type="submit">Registrar</button>
+      </form>
+    </section>
+
+    <!-- Sección de productos -->
+    <section id="productos">
+      <h2>Productos</h2>
+      <ul id="producto-lista-ul">
+        <!-- Aquí se mostrarán los productos -->
+      </ul>
+    </section>
+
+    <!-- Sección del carrito -->
+    <section id="carrito">
+      <h2>Carrito</h2>
+      <ul id="carrito-lista-ul">
+        <!-- Aquí se mostrarán los productos seleccionados -->
+      </ul>
+      <div>
+        <p><strong>Total:</strong> <span id="total-carrito-span">$0.00</span></p>
+        <button id="vaciar-carrito-btn">Vaciar carrito</button>
+        <button id="comprar-btn">Comprar</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
